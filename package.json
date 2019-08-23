@@ -1,6 +1,6 @@
 {
-  "name": "redux-router",
-  "version": "1.0.0-beta8",
+  "name": "@krashstudio/redux-router",
+  "version": "1.0.0-fork1",
   "description": "Redux bindings for React Router — keep your router state inside your Redux Store.",
   "main": "lib/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/acdlite/redux-router.git"
+    "url": "https://github.com/KrashStudio/redux-router.git"
   },
   "keywords": [
     "redux",
@@ -41,7 +41,7 @@
     "react-addons-test-utils": "^0.14.1",
     "react-dom": "^0.14.1",
     "react-redux": "^4.0.0",
-    "react-router": "1.0.3",
+    "@krashstudio/react-router": "^1.0.3",
     "react-transform-hmr": "^1.0.1",
     "redux": "3.x",
     "redux-devtools": "^2.1.0",
