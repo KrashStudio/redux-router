@@ -1,9 +1,10 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { RoutingContext as DefaultRoutingContext } from '@krashstudio/react-router';
 import routerStateEquals from './routerStateEquals';
 import { ROUTER_STATE_SELECTOR } from './constants';
 import { initRoutes, replaceRoutes } from './actionCreators';
+import PropTypes from 'prop-types';
 
 function memoizeRouterStateSelector(selector) {
   let previousRouterState = null;

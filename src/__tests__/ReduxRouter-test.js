@@ -6,7 +6,7 @@ import {
 
 import * as server from '../server';
 
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { renderToString } from 'react-dom/server';
 import {
   renderIntoDocument,
@@ -20,6 +20,7 @@ import createHistory from 'history/lib/createMemoryHistory';
 import { Link, Route } from '@krashstudio/react-router';
 import jsdom from 'mocha-jsdom';
 import sinon from 'sinon';
+import PropTypes from 'prop-types';
 
 @connect(state => state.router)
 class App extends Component {
