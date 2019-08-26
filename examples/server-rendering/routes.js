@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route} from 'react-router';
+import {Route} from '@krashstudio/react-router';
 import {App, Parent, Child} from './components';
 
 export default (

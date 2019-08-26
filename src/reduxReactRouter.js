@@ -1,5 +1,5 @@
 import { applyMiddleware } from 'redux';
-import { useRoutes } from 'react-router';
+import { useRoutes } from '@krashstudio/react-router';
 import historyMiddleware from './historyMiddleware';
 import { ROUTER_STATE_SELECTOR } from './constants';
 

@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
-import { RoutingContext as DefaultRoutingContext } from 'react-router';
+import { RoutingContext as DefaultRoutingContext } from '@krashstudio/react-router';
 import routerStateEquals from './routerStateEquals';
 import { ROUTER_STATE_SELECTOR } from './constants';
 import { initRoutes, replaceRoutes } from './actionCreators';

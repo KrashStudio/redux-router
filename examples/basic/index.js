@@ -9,7 +9,7 @@ import {
   pushState,
 } from 'redux-router';
 
-import { Route, Link } from 'react-router';
+import { Route, Link } from '@krashstudio/react-router';
 import { Provider, connect } from 'react-redux';
 import { devTools } from 'redux-devtools';
 import { DevTools, DebugPanel, LogMonitor } from 'redux-devtools/lib/react';
