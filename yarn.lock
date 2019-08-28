@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@krashstudio/react-router@1.0.3-fork3":
-  version "1.0.3-fork3"
-  resolved "https://registry.yarnpkg.com/@krashstudio/react-router/-/react-router-1.0.3-fork3.tgz#155c766a34eb9dacc0ebe313b826aa006aa4cc6a"
-  integrity sha512-3xTJjBEW9IjPMnttsadJC5t19p+lGXWcSUR1SoFwQ5GZs50zb9ycGzVzaBcOziekD9JVQ1KhWhKm2McqPAFeGg==
+"@krashstudio/react-router@1.0.3-fork4":
+  version "1.0.3-fork4"
+  resolved "https://registry.yarnpkg.com/@krashstudio/react-router/-/react-router-1.0.3-fork4.tgz#89c3d8337c350b5bf458bb756f78a8e45e6a975d"
+  integrity sha512-FYX4ommLJ+r2yBZ8b5kjpAivIt6pJ2KpE4aHw0b2GXJhP5cOI5Hvoc8SZCpj4KmBPBFATpKIaH4m8y1t0Q7avQ==
   dependencies:
     invariant "^2.0.0"
     prop-types "^15.7.2"
