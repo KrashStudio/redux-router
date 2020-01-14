@@ -36,11 +36,11 @@ class ReduxRouter extends Component {
     super(props, context);
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.context.store.dispatch(initRoutes(getRoutesFromProps(this.props)));
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     this.receiveRoutes(getRoutesFromProps(nextProps));
   }
 
